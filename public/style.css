@@ -37,7 +37,8 @@ span {
 }
 
 .about-me {
-    width: 25%;
+    display: block;
+    width: 30%;
     height: 100%;
     padding: 25px;
 }
@@ -99,5 +100,9 @@ span {
 
     .projects {
         padding: 20px;
+    }
+
+    img {
+        max-height: 400px;
     }
 }
