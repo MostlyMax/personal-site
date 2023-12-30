@@ -40,6 +40,10 @@ p {
     color: var(--paragraph-font-color)
 }
 
+p, p a {
+    font-size: medium;
+}
+
 span {
     color: var(--paragraph-font-color);
 }
@@ -63,6 +67,10 @@ span {
 .about-me img {
     max-width: 100%;
     max-height: auto;
+}
+
+.about-me span, span a {
+    font-size: small;
 }
 
 .projects {
@@ -94,7 +102,6 @@ span {
 .projects .project-heading span, a {
     margin: 0px;
     font-size: x-small;
-    font-style: italic;
 }
 
 @media screen and (max-width: 800px) {
