@@ -23,6 +23,7 @@ main {
 
 footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
@@ -120,6 +121,10 @@ span {
 
 @media screen and (max-width: 800px) {
     main {
+        flex-direction: column;
+    }
+
+    footer {
         flex-direction: column;
     }
 
