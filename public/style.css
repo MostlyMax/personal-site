@@ -66,15 +66,8 @@ span {
 .about-me {
     display: block;
     width: 30%;
+    height: 100%;
     padding: 25px;
-}
-
-.sticky-coffee {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    align-self: flex-start;
-    padding: 50px;
 }
 
 .about-me h1 {
@@ -133,10 +126,6 @@ span {
 
     footer {
         flex-direction: column;
-    }
-
-    .sticky-coffee {
-        display: none;
     }
 
     .projects, .about-me {
