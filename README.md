@@ -6,6 +6,6 @@ and efficiency and uses [nothing but html and css](https://motherfuckingwebsite.
 Took me many an hours of learning frameworks to learn that I really don't need to be using them...
 
 The site is deployed to an s3 bucket via github actions which is then delivered to you
-through aws CloudFront.
+through aws CloudFront. Hope you enjoy the insider look.
 
 cheers! :D
