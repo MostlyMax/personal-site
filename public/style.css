@@ -3,6 +3,13 @@
     --paragraph-font-color: #415270;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-bg-color: #415270;
+        --paragraph-font-color: #faf5fc;
+    }
+}
+
 
 * {
     box-sizing: border-box;
