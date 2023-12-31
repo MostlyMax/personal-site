@@ -1,12 +1,14 @@
 :root {
     --main-bg-color: #faf5fc;
     --paragraph-font-color: #415270;
+    --header-color: black;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --main-bg-color: #415270;
-        --paragraph-font-color: #faf5fc;
+        --main-bg-color: #332438;
+        --paragraph-font-color: #a1bded;
+        --header-color: white;
     }
 }
 
@@ -21,6 +23,7 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Poppins', 'Arial';
+    background-color: #1c222e;
 }
 
 main {
@@ -42,6 +45,11 @@ footer {
 
 h1, h2 {
     font-weight: lighter;
+    color: var(--header-color);
+}
+
+h3 {
+    color: var(--header-color);
 }
 
 .h-with-subheading {
