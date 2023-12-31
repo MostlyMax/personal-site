@@ -21,6 +21,16 @@ main {
     flex-direction: row;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #d5def7;
+}
+
 
 h1, h2 {
     font-weight: lighter;
@@ -42,6 +52,10 @@ p {
 
 p, p a {
     font-size: medium;
+}
+
+footer p {
+    font-size: small;
 }
 
 span {
